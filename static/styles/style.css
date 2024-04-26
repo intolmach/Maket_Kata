@@ -1,5 +1,5 @@
 @import url("header.css");
-@import url("static/fonts/TTLakes/stylesheet.css");
+@import url("../stylesheet.css");
 
 body {
     font-family: 'TT Lakes';
