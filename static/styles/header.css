@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    column-gap: 16px;
+    padding: 16px 24px;
+
+}
+
+.header__button:hover {
+    filter: hue-rotate(120deg);
+}
+
+.header__button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.header__start {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.header__end {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+
+.header__button--burger {
+    background-image: url(/static/images/burger.svg);
+}
+
+.header__button--repair {
+    background-image: url(/static/images/repair.svg);
+}
+
+.header__button--checkstatus {
+    background-image: url(/static/images/checkstatus.svg);
+}
+
+.header__button--profile {
+    background-image: url(/static/images/profile.svg);
+}
+
+.header__button--call {
+    background-image: url(/static/images/call.svg);
+}
+
+.header__button--chat {
+    background-image: url(/static/images/chat.svg);
+}
+
+.header__logo {
+    width: 96.55px;
+    height: 50.81px;
+    object-fit: contain;
+}
+
+.header__divider {
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+}
+
+.header__button span {
+    display: none;  
+}
+
+.header__start .header__divider {
+    display: none;
+}
