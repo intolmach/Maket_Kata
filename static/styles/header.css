@@ -33,27 +33,27 @@
 
 
 .header__button--burger {
-    background-image: url(../burger.svg);
+    background-image: url(/static/images/burger.svg);
 }
 
 .header__button--repair {
-    background-image: url(../repair.svg);
+    background-image: url(/static/images/repair.svg);
 }
 
 .header__button--checkstatus {
-    background-image: url(../checkstatus.svg);
+    background-image: url(/static/images/checkstatus.svg);
 }
 
 .header__button--profile {
-    background-image: url(../profile.svg);
+    background-image: url(/static/images/profile.svg);
 }
 
 .header__button--call {
-    background-image: url(../call.svg);
+    background-image: url(/static/images/call.svg);
 }
 
 .header__button--chat {
-    background-image: url(../chat.svg);
+    background-image: url(/static/images/chat.svg);
 }
 
 .header__logo {
