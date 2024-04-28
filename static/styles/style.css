@@ -40,7 +40,6 @@ main {
     overflow: hidden;
     overflow-x: auto;
     padding: 0px;
-
 }
 
 .nav__list::-webkit-scrollbar {
@@ -65,8 +64,10 @@ main {
     margin-right: 16px;
 }
 
-.active_item {
+.nav_item:hover {
     border-color: #B8FFEC;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .table {
