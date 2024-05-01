@@ -18,6 +18,10 @@
     height: 40px;
     background-repeat: no-repeat;
     background-position-x: right;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    
 }
 
 .header__start {
@@ -36,9 +40,27 @@
 .header__button--burger {
     background-image: url(../images/burger.svg);
 }
+.header__button--burger::after {
+    margin-left: 62px;
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    display: none;
+}
 
 .header__button--repair {
+    margin-left: 22px;
     background-image: url(../images/repair.svg);
+}
+
+.header__button--repair::after {
+    margin-left: -22px;
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    display: block;
 }
 
 .header__button--checkstatus {
@@ -58,15 +80,9 @@
 }
 
 .header__logo {
-    width: 96.55px;
-    height: 50.81px;
+    width: 97px;
+    height: 51px;
     object-fit: contain;
-}
-
-.header__divider {
-    width: 2px;
-    height: 32px;
-    background-color: #EAEAEA;
 }
 
 .header__button span {
