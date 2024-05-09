@@ -191,3 +191,164 @@ main {
         margin-left: 16px;
     }
 }
+
+/* -------------MOBILE MENU-------------*/
+
+.mobile {
+    font-family: 'TT Lakes';
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile__menu {
+    --menu-padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #1B1C21;
+    width: 320px;
+    height: 100vh;
+    margin: 0;
+    padding: var(--menu-padding);
+    box-shadow:
+        16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+        -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+}
+
+.mobile__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+
+.mobile__button--close {
+    background-image: url(../images/close.svg);
+    margin-right: 16px;
+}
+
+.mobile__logo {
+    margin-right: 78px;
+}
+
+.mobile__button--search {
+    background-image: url(../images/search.svg);
+}
+
+.mobile__nav {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    row-gap: 32px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.mobile__item {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+}
+
+.mobile__item a:hover {
+    color: #7E7E82;
+    transition: 0.2s;
+}
+
+.mobile__item::before {
+    --item-border-margin: 5px;
+    content: "";
+    position: absolute;
+    left: calc(-1 * var(--menu-padding));
+    top: calc(-1 * var(--item-border-margin));
+    width: 4px;
+    height: calc(100% + (var(--item-border-margin) * 2));
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: transparent;
+    transition: background 300ms;
+}
+
+.mobile__item:hover::before {
+    background: #41F6D7;
+}
+
+
+.mobile__link {
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+.mobile__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__button--call {
+    background-image: url(../images/call.svg);
+    margin-right: 16px;
+}
+
+.contact__button--chat {
+    background-image: url(../images/chat.svg);
+    margin-right: 16px;
+}
+
+.contact__button--profile {
+    background-image: url(../images/profile.svg);
+}
+
+.contact__mail {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+.contact__tel {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+.item__lang {
+    font-size: 16px;
+    margin-right: 7px;
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+.item__lang:hover {
+    color: #7E7E82;
+}
