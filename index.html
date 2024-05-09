@@ -11,36 +11,34 @@
 <body>
     <header class="header">
         <div class="header__start">
-            <div class="header__button header__button--burger"></div>
-            <div class="header__divider"></div>
+            <button class="header__button header__button--burger"></button>
             <img class="header__logo" src="static/images/logo.svg" alt="Логотип" />
         </div>
         <div class="header__end">
-            <div class="header__button header__button--call"></div>
-            <div class="header__button header__button--chat"></div>
-            <div class="header__button header__button--profile"></div>
-            <div class="header__divider"></div>
-            <div class="header__button header__button--repair"><span>Оставить заявку</span></div>
-            <div class="header__button header__button--checkstatus"><span>Статус ремонта</span></div>
+            <button class="header__button header__button--call"></button>
+            <button class="header__button header__button--chat"></button>
+            <button class="header__button header__button--profile"></button>
+            <button class="header__button header__button--repair"><span>Оставить заявку</span></button>
+            <button class="header__button header__button--checkstatus"><span>Статус ремонта</span></button>
         </div>
     </header>
     <main class="main">
-        <h1 class="main_title">
+        <h1 class="main__title">
             Услуги и сервисы
         </h1>
         <nav class="main__nav">
             <ul class="nav__list">
-                <li class="nav_item">Ремонтируемые устройства</li>
-                <li class="nav_item">Дополнительные услуги</li>
-                <li class="nav_item">Цены на услуги</li>
-                <li class="nav_item">Адреса сервисных центров</li>
-                <li class="nav_item">Специальная цена</li>
-                <li class="nav_item">Отзывы</li>
+                <li class="nav__item"><a href="#">Ремонтируемые устройства</a></li>
+                <li class="nav__item"><a href="#">Дополнительные услуги</a></li>
+                <li class="nav__item"><a href="#">Цены на услуги</a></li>
+                <li class="nav__item"><a href="#">Адреса сервисных центров</a></li>
+                <li class="nav__item"><a href="#">Специальная цена</a></li>
+                <li class="nav__item"><a href="#">Отзывы</a></li>
             </ul>
         </nav>
         <section class="table">
             <div>
-                <div class="table_text">
+                <div class="table__text">
                     <p>Мы являемся авторизовынным сервисным центром по ремонту техники Dell. Только у нас вы
                         можете отремонтировать свой ноутбук Dell с офицальной гарантией производителя.
                     </p>
@@ -49,9 +47,9 @@
                         свою
                         очередь, советуют нас родным и близким.</p>
                 </div>
-                <a class="table_onwards"><img src="static/images/expand.svg" />Читать далее</a>
+                <a class="table__onwards"><img src="static/images/expand.svg" />Читать далее</a>
             </div>
-            <img class="table_img" src="static/images/IMG_3223.png" alt="Фотография" />
+            <img class="table__img" src="static/images/IMG_3223.png" alt="Фотография" />
         </section>
     </main>
 
