@@ -9,7 +9,7 @@
 }
 
 .header__button:hover {
-    filter: hue-rotate(210deg);
+    opacity: 0.6;
     cursor: pointer;
 }
 
