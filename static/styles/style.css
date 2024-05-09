@@ -1,7 +1,7 @@
 @import url("header.css");
 @import url("../fonts/TTLakes/stylesheet.css");
 
-body {
+.cps-maket {
     font-family: 'TT Lakes';
     display: flex;
     flex-direction: column;
