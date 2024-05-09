@@ -1,4 +1,4 @@
-@import url("header.css");
+
 @import url("../fonts/TTLakes/stylesheet.css");
 
 .cps-maket {
@@ -17,12 +17,110 @@ main {
 
 }
 
+/*--------HEADER--------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    column-gap: 16px;
+    padding: 16px 24px;
+
+}
+
+.header__button:hover {
+    filter: hue-rotate(210deg);
+    cursor: pointer;
+}
+
+.header__button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+
+}
+
+.header__start {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.header__end {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+
+.header__button--burger {
+    background-image: url(../images/burger.svg);
+}
+
+.header__button--burger::after {
+    margin-left: 62px;
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    display: none;
+}
+
+.header__button--repair {
+    margin-left: 22px;
+    background-image: url(../images/repair.svg);
+}
+
+.header__button--repair::after {
+    margin-left: -22px;
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    display: block;
+}
+
+.header__button--checkstatus {
+    background-image: url(../images/checkstatus.svg);
+}
+
+.header__button--profile {
+    background-image: url(../images/profile.svg);
+}
+
+.header__button--call {
+    background-image: url(../images/call.svg);
+}
+
+.header__button--chat {
+    background-image: url(../images/chat.svg);
+}
+
+.header__logo {
+    width: 97px;
+    height: 51px;
+    object-fit: contain;
+}
+
+.header__button span {
+    display: none;
+}
+
+.header__start .header__divider {
+    display: none;
+}
+
 .header__button--call,
 .header__button--chat,
 .header__button--profile {
     display: none;
 }
 
+/*--------MAIN--------*/
 
 .main__title {
     font-size: 28px;
@@ -53,8 +151,9 @@ main {
     border: 4px solid transparent;
     border-radius: 5%;
 }
+
 .nav__item a {
-    color:#7E7E82;
+    color: #7E7E82;
     text-decoration: none;
 }
 
@@ -130,10 +229,11 @@ main {
 
     .header__start .header__button--burger {
         margin-right: 24px;
-    }      
+    }
+
     .header__start .header__button--burger::after {
         display: block;
-    }   
+    }
 }
 
 @media (min-width: 1120px) {
@@ -177,9 +277,10 @@ main {
     .header__button--repair {
         margin-right: 24px;
     }
+
     .header__button--repair::after {
         display: none;
-      }
+    }
 
     .nav__list {
         flex-wrap: wrap;
