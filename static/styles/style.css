@@ -29,7 +29,8 @@ main {
 }
 
 .header__button:hover {
-    filter: hue-rotate(210deg);
+    opacity: 0.6;
+    transition: 0.2s;
     cursor: pointer;
 }
 
@@ -309,8 +310,7 @@ main {
     background-color: #FFFFFF;
     color: #1B1C21;
     width: 320px;
-    min-height: 800px;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     padding: var(--menu-padding);
     box-shadow:
