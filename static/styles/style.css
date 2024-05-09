@@ -212,7 +212,7 @@ main {
     background-color: #FFFFFF;
     color: #1B1C21;
     width: 320px;
-    min-height: 780px;
+    min-height: 800px;
     height: 100vh;
     margin: 0;
     padding: var(--menu-padding);
