@@ -355,7 +355,7 @@ main {
     background-image: url(../images/search.svg);
 }
 
-.mobile__nav {
+.mobile__list {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
