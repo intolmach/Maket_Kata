@@ -7,8 +7,6 @@ body {
     flex-direction: column;
     background-color: #F8F8F8;
     color: #1B1C21;
-    width: 100vw;
-    height: 100vh;
     margin: 0;
 }
 
@@ -196,8 +194,6 @@ main {
 
 .mobile {
     font-family: 'TT Lakes';
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
