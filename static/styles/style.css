@@ -51,7 +51,6 @@
 }
 .contact__button { 
     display: flex;
-    vertical-align: middle;
     gap: 16px;
 }
 
@@ -76,7 +75,6 @@
 }
 
 .header__button--repair {
-    margin-left: 22px;
     background-image: url(../images/repair.svg);
 }
 
