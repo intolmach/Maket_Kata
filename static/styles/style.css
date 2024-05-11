@@ -27,13 +27,13 @@
 
 }
 
-.header__button:hover {
+.button:hover {
     cursor: pointer;
     opacity: 0.6;
     transition: 0.2s;
 }
 
-.header__button {
+.button {
     width: 40px;
     height: 40px;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@
     object-fit: contain;
 }
 
-.header__button span {
+.button span {
     display: none;
 }
 
@@ -273,7 +273,7 @@
         padding-right: 48px;    
     }
 
-    .header__button span {
+    .button span {
         display: inline;
     }
 
@@ -338,7 +338,7 @@
     background-color: #FFFFFF;
 }
 
-.button {
+/* .button {
     width: 40px;
     height: 40px;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@
     cursor: pointer;
     opacity: 0.6;
     transition: 0.2s;
-}
+} */
 
 
 .mobile__button--close {
