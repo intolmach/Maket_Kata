@@ -49,6 +49,11 @@
     column-gap: 16px;
     align-items: center;
 }
+.contact__button { 
+    display: flex;
+    vertical-align: middle;
+    gap: 16px;
+}
 
 .header__end {
     display: flex;
@@ -338,23 +343,6 @@
     background-color: #FFFFFF;
 }
 
-/* .button {
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
-}
-
-.button:hover {
-    cursor: pointer;
-    opacity: 0.6;
-    transition: 0.2s;
-} */
-
-
 .mobile__button--close {
     background-image: url(../images/close.svg);
     margin-right: 16px;
@@ -430,7 +418,6 @@
     background-image: url(../images/chat.svg);
 }
 
-
 .contact__button--profile {
     background-image: url(../images/profile.svg);
 }
@@ -465,8 +452,3 @@
     color: #7E7E82;
 }
 
-.contact__button { 
-    display: flex;
-    vertical-align: middle;
-    gap: 16px;
-}
