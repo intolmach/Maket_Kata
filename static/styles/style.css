@@ -424,13 +424,12 @@
 
 .contact__button--call {
     background-image: url(../images/call.svg);
-    margin-right: 16px;
 }
 
 .contact__button--chat {
     background-image: url(../images/chat.svg);
-    margin-right: 16px;
 }
+
 
 .contact__button--profile {
     background-image: url(../images/profile.svg);
@@ -464,4 +463,10 @@
 
 .item__lang:hover {
     color: #7E7E82;
+}
+
+.contact__button { 
+    display: flex;
+    vertical-align: middle;
+    gap: 16px;
 }
