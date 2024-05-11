@@ -10,11 +10,10 @@
     margin: 0;
 }
 
-main {
+.main {
     background-color: #F8F8F8;
     padding-top: 24px;
     flex-grow: 1;
-
 }
 
 /*--------HEADER--------*/
