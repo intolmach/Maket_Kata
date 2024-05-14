@@ -450,9 +450,9 @@ body {
 
 .mobile-lang {
     display: flex;
-    padding-left: 0;
     list-style-type: none;
-    margin-top: 40px;
+    margin: 0;
+    padding: 40px 0 0;
 }
 
 .mobile-lang__item {
