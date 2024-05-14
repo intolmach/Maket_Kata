@@ -52,6 +52,8 @@
 .contact__button { 
     display: flex;
     gap: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 .header__end {
@@ -93,6 +95,7 @@
 
 .header__button--profile {
     background-image: url(../images/profile.svg);
+    margin-right: 26px;
 }
 
 .header__button--call {
@@ -310,7 +313,7 @@
 
 /* -------------MOBILE MENU-------------*/
 
-.mobile {
+body {
     font-family: 'TT Lakes';
     margin: 0;
     padding: 0;
@@ -405,7 +408,10 @@
 
 .mobile__contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
+}
+.contact__item{
+    list-style-type: none;
 }
 
 .contact__button--call {
@@ -420,6 +426,11 @@
     background-image: url(../images/profile.svg);
 }
 
+.mobile__address {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
 .contact__mail {
     font-size: 16px;
     line-height: 24px;
@@ -437,6 +448,13 @@
     margin-top: 12px;
     color: #1B1C21;
     text-decoration: none;
+}
+
+.mobile__lang {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
 .item__lang {
