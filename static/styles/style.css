@@ -49,7 +49,7 @@
     column-gap: 16px;
     align-items: center;
 }
-.contact__button { 
+.contact-buttons { 
     display: flex;
     gap: 16px;
     padding: 0;
@@ -319,7 +319,7 @@ body {
     padding: 0;
 }
 
-.mobile__menu {
+.mobile-menu {
     --menu-padding: 24px;
     display: flex;
     flex-direction: column;
@@ -337,30 +337,30 @@ body {
         -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
 }
 
-.mobile__head {
+.mobile-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
 }
 
-.mobile__button--close {
+.mobile-head__button--close {
     background-image: url(../images/close.svg);
     margin-right: 16px;
 }
 
-.mobile__logo {
+.mobile-head__logo {
     margin-right: 78px;
 }
 
-.mobile__button--search {
+.mobile-head__button--search {
     background-image: url(../images/search.svg);
 }
 .navigator {
     flex-grow: 1;
 }
 
-.mobile__list {
+.mobile-list {
     display: flex;
     flex-direction: column;
     row-gap: 32px;
@@ -369,7 +369,7 @@ body {
     margin: 0;
 }
 
-.mobile__item {
+.mobile-list__item {
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -377,12 +377,12 @@ body {
     position: relative;
 }
 
-.mobile__item a:hover {
+.mobile-list__item a:hover {
     color: #7E7E82;
     transition: 0.2s;
 }
 
-.mobile__item::before {
+.mobile-list__item::before {
     --item-border-margin: 5px;
     content: "";
     position: absolute;
@@ -396,42 +396,42 @@ body {
     transition: background 300ms;
 }
 
-.mobile__item:hover::before {
+.mobile-list__item:hover::before {
     background: #41F6D7;
 }
 
 
-.mobile__link {
+.mobile-list__link {
     color: #1B1C21;
     text-decoration: none;
 }
 
-.mobile__contact {
+.mobile-contact {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
 }
-.contact__item{
+.contact-buttons__item{
     list-style-type: none;
 }
 
-.contact__button--call {
+.contact-buttons__button--call {
     background-image: url(../images/call.svg);
 }
 
-.contact__button--chat {
+.contact-buttons__button--chat {
     background-image: url(../images/chat.svg);
 }
 
-.contact__button--profile {
+.contact-buttons__button--profile {
     background-image: url(../images/profile.svg);
 }
 
-.mobile__address {
+.mobile-address {
     display: flex;
     flex-direction: column;
     font-style: normal;
 }
-.contact__mail {
+.mobile-address__mail {
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -441,7 +441,7 @@ body {
     text-decoration: none;
 }
 
-.contact__tel {
+.mobile-address__tel {
     font-size: 24px;
     line-height: 32px;
     font-weight: bold;
@@ -450,14 +450,14 @@ body {
     text-decoration: none;
 }
 
-.mobile__lang {
+.mobile-lang {
     display: flex;
     padding-left: 0;
     list-style-type: none;
-    margin: 0;
+    margin-top: 40px;
 }
 
-.item__lang {
+.mobile-lang__item {
     font-size: 16px;
     margin-right: 7px;
     color: #1B1C21;
@@ -465,7 +465,7 @@ body {
     
 }
 
-.item__lang:hover {
+.mobile-lang__item:hover {
     color: #7E7E82;
 }
 
