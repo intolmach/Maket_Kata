@@ -24,7 +24,6 @@
     background-color: #FFFFFF;
     column-gap: 16px;
     padding: 16px 24px;
-
 }
 
 .button:hover {
@@ -41,7 +40,6 @@
     border: 0;
     padding: 0;
     background-color: transparent;
-
 }
 
 .header__start {
