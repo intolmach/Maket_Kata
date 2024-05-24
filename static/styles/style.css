@@ -584,6 +584,9 @@ body {
         left: -30px;
         content: url(/static/images/expand.svg);
     }
+    .swiper-menu__show-btn:hover {
+        cursor: pointer;
+        }
 
     .swiper-menu__hide-btn {
         display: block;
@@ -595,6 +598,10 @@ body {
         background-color: transparent;
         margin-top: 46px;
         margin-left: 54px;
+    }
+
+    .swiper-menu__hide-btn:hover {
+    cursor: pointer;
     }
 
     .swiper-menu__hide-btn::before {
