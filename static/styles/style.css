@@ -472,7 +472,7 @@ body {
 .swiper-menu {
     font-family: TT Lakes, sans-serif;
     color: #1B1C21;
-    background: linear-gradient(270deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    background-color: #F8F8F8;
 }
 
 .swiper-menu .swiper-menu__list {
@@ -481,7 +481,8 @@ body {
 }
 
 .swiper-menu__head {
-    background-color: white;
+    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+
 }
 
 .swiper-menu__head-title {
